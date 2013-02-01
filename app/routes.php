@@ -11,7 +11,6 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+
+Route::controller('AccountController', 'account');
+Route::get('/', 'HomeController@showIndex');
