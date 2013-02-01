@@ -21,6 +21,17 @@ Now that you have the Laravel 4 installed, you need to create a database for it 
 
 -----
 
+### Make sure app/storage is writable by your web server.
+If permissions are set correctly:
+
+    chmod -R 775 app/storage
+
+Should work, if not try
+
+    chmod -R 777 app/storage
+
+-----
+
 Navigate to your Laravel 4 website and try to login with the default credentials:
 
 	email : test@test.com

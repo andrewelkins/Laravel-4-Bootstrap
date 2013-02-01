@@ -12,5 +12,5 @@
 */
 
 
-Route::controller('AccountController', 'account');
+Route::controller('account','AccountController' );
 Route::get('/', 'HomeController@showIndex');
