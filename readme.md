@@ -1,4 +1,4 @@
-##Laravel 4 - Bootstrap Application
+##Laravel 4 - Bootstrap Application (Stable)
 
 This is a Laravel 4 Bootstrap Application, and like the name, it has Twitter Bootstrap 2.2.2 and it comes as an example application to help you get started on using Laravel 4 :)
 
