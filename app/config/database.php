@@ -57,7 +57,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'laravelbootstrap',
 			'username'  => 'root',
-			'password'  => 'exp0secoffee',
+			'password'  => 'yourpassword',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
