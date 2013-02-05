@@ -9,6 +9,8 @@ This is a Laravel 4 Bootstrap Application, and like the name, it has Twitter Boo
 	curl -s http://getcomposer.org/installer | php
 	php composer.phar install
 
+You might want to make [composer as an alias](http://andrewelkins.com/programming/php/setting-up-composer-globally-for-laravel-4/) for future ease of use.
+
 Now that you have the Laravel 4 installed, you need to create a database for it and update the file ***app/config/database.php***
 
 -----
