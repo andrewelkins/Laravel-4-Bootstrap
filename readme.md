@@ -2,12 +2,16 @@
 
 This is a Laravel 4 Bootstrap Application, and like the name, it has Twitter Bootstrap 2.2.2 and it comes as an example application to help you get started on using Laravel 4 :)
 
+Fork of a repo by [brunogaspar](https://github.com/brunogaspar) that no longer exists.
+
 ###How to install
 
 	git clone git://github.com/andrew13/Laravel-4-Bootstrap.git laravel
 	cd laravel
 	curl -s http://getcomposer.org/installer | php
 	php composer.phar install
+
+You might want to make [composer as an alias](http://andrewelkins.com/programming/php/setting-up-composer-globally-for-laravel-4/) for future ease of use.
 
 Now that you have the Laravel 4 installed, you need to create a database for it and update the file ***app/config/database.php***
 
@@ -39,18 +43,6 @@ Navigate to your Laravel 4 website and try to login with the default credentials
 
 Create a new user at /account/register
 
-Based on a previous version of a Laravel 4 Bootstrap by brunogaspar
-
-## Laravel 4.x - Pulled Develop commit 7e81f9de94d5adec10bca55bda9d28dca005879b
-
-### A Framework For Web Artisans
-
-[Official Documentation](http://four.laravel.com) (Under Active Development)
-
-### Contributing To Laravel
-
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
 ### License
 
-The Laravel framework is open-sourced software license under the [MIT license](http://opensource.org/licenses/MIT)
+This is open-sourced software license under the [MIT license](http://opensource.org/licenses/MIT)
