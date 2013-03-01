@@ -19,8 +19,8 @@
 
 		<!-- CSS
 		================================================== -->
-		<link href="{{ asset('assets/css/bootstrap.css') }}" rel="stylesheet">
-		<link href="{{ asset('assets/css/bootstrap-responsive.css') }}" rel="stylesheet">
+		<link href="{{{ asset('assets/css/bootstrap.css') }}}" rel="stylesheet">
+		<link href="{{{ asset('assets/css/bootstrap-responsive.css') }}}" rel="stylesheet">
 
 		<style>
 		@section('styles')
@@ -37,11 +37,11 @@
 
 		<!-- Favicons
 		================================================== -->
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ asset('assets/ico/apple-touch-icon-144-precomposed.png') }}">
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset('assets/ico/apple-touch-icon-114-precomposed.png') }}">
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('assets/ico/apple-touch-icon-72-precomposed.png') }}">
-		<link rel="apple-touch-icon-precomposed" href="{{ asset('assets/ico/apple-touch-icon-57-precomposed.png') }}">
-		<link rel="shortcut icon" href="{{ asset('assets/ico/favicon.png') }}">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{{ asset('assets/ico/apple-touch-icon-144-precomposed.png') }}}">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{{ asset('assets/ico/apple-touch-icon-114-precomposed.png') }}}">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{{ asset('assets/ico/apple-touch-icon-72-precomposed.png') }}}">
+		<link rel="apple-touch-icon-precomposed" href="{{{ asset('assets/ico/apple-touch-icon-57-precomposed.png') }}}">
+		<link rel="shortcut icon" href="{{{ asset('assets/ico/favicon.png') }}}">
 	</head>
 
 	<body>
@@ -57,18 +57,18 @@
 
 					<div class="nav-collapse collapse">
 						<ul class="nav">
-							<li {{ (Request::is('/') ? 'class="active"' : '') }}><a href="{{ URL::to('') }}">Home</a></li>
+							<li {{{ (Request::is('/') ? 'class="active"' : '') }}}><a href="{{{ URL::to('') }}}">Home</a></li>
 						</ul>
 
 						<ul class="nav pull-right">
 							@if (Auth::check())
-							<li class="navbar-text">Logged in as {{ Auth::user()->fullName() }}</li>
+							<li class="navbar-text">Logged in as {{{ Auth::user()->fullName() }}}</li>
 							<li class="divider-vertical"></li>
-							<li {{ (Request::is('account') ? 'class="active"' : '') }}><a href="{{ URL::to('account') }}">Account</a></li>
-							<li><a href="{{ URL::to('account/logout') }}">Logout</a></li>
+							<li {{{ (Request::is('account') ? 'class="active"' : '') }}}><a href="{{{ URL::to('account') }}}">Account</a></li>
+							<li><a href="{{{ URL::to('account/logout') }}}">Logout</a></li>
 							@else
-							<li {{ (Request::is('account/login') ? 'class="active"' : '') }}><a href="{{ URL::to('account/login') }}">Login</a></li>
-							<li {{ (Request::is('account/register') ? 'class="active"' : '') }}><a href="{{ URL::to('account/register') }}">Register</a></li>
+							<li {{{ (Request::is('account/login') ? 'class="active"' : '') }}}><a href="{{{ URL::to('account/login') }}}">Login</a></li>
+							<li {{{ (Request::is('account/register') ? 'class="active"' : '') }}}><a href="{{{ URL::to('account/register') }}}">Register</a></li>
 							@endif
 						</ul>
 					</div>
@@ -92,7 +92,7 @@
 
 		<!-- Javascripts
 		================================================== -->
-		<script src="{{ asset('assets/js/jquery.v1.8.3.min.js') }}"></script>
-		<script src="{{ asset('assets/js/bootstrap/bootstrap.min.js') }}"></script>
+		<script src="{{{ asset('assets/js/jquery.v1.8.3.min.js') }}}"></script>
+		<script src="{{{ asset('assets/js/bootstrap/bootstrap.min.js') }}}"></script>
 	</body>
 </html>
