@@ -25,7 +25,7 @@ body {
 		<label class="control-label" for="first_name">First Name</label>
 		<div class="controls">
 			<input type="text" name="first_name" id="first_name" value="{{{ Request::old('first_name', $user->first_name) }}}" />
-			{{{ $errors->first('first_name') }}}
+			{{ $errors->first('first_name') }}
 		</div>
 	</div>
 	<!-- ./ first name -->
@@ -35,7 +35,7 @@ body {
 		<label class="control-label" for="last_name">Last Name</label>
 		<div class="controls">
 			<input type="text" name="last_name" id="last_name" value="{{{ Request::old('last_name', $user->last_name) }}}" />
-			{{{ $errors->first('last_name') }}}
+			{{ $errors->first('last_name') }}
 		</div>
 	</div>
 	<!-- ./ last name -->
@@ -45,7 +45,7 @@ body {
 		<label class="control-label" for="email">Email</label>
 		<div class="controls">
 			<input type="text" name="email" id="email" value="{{{ Request::old('email', $user->email) }}}" />
-			{{{ $errors->first('email') }}}
+			{{ $errors->first('email') }}
 		</div>
 	</div>
 	<!-- ./ email -->
@@ -55,7 +55,7 @@ body {
 		<label class="control-label" for="password">Password</label>
 		<div class="controls">
 			<input type="password" name="password" id="password" value="" />
-			{{{ $errors->first('password') }}}
+			{{ $errors->first('password') }}
 		</div>
 	</div>
 	<!-- ./ password -->
@@ -65,7 +65,7 @@ body {
 		<label class="control-label" for="password_confirmation">Password Confirm</label>
 		<div class="controls">
 			<input type="password" name="password_confirmation" id="password_confirmation" value="" />
-			{{{ $errors->first('password_confirmation') }}}
+			{{ $errors->first('password_confirmation') }}
 		</div>
 	</div>
 	<!-- ./ password confirm -->
