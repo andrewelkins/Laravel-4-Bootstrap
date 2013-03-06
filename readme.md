@@ -19,7 +19,6 @@ Now that you have the Laravel 4 installed, you need to create a database for it 
 
 ###After that, run these commands to create and populate Users table:
 
-	php artisan migrate:install
 	php artisan migrate
 	php artisan db:seed
 
