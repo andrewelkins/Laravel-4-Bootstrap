@@ -1,8 +1,8 @@
 ##Laravel 4 - Bootstrap Application (Stable)
 
-This is a Laravel 4 Bootstrap Application, and like the name, it has Twitter Bootstrap 2.3.0 and it comes as an example application to help you get started on using Laravel 4 :)
+This is a Laravel 4 Bootstrap Application that has Twitter Bootstrap 2.3.0 and a skeleton app on Laravel 4.
 
-Fork of a repo by [brunogaspar](https://github.com/brunogaspar) that no longer exists.
+Originally a fork of a repo by [brunogaspar](https://github.com/brunogaspar) that no longer exists.
 
 ###How to install
 
