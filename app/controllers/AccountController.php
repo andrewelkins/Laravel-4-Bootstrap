@@ -156,7 +156,7 @@ class AccountController extends AuthorizedController
 
 		// Something went wrong.
 		//
-		return Redirect::to('account/login')->withErrors($validator->getMessages());
+		return Redirect::to('account/login')->withErrors($validator->getMessageBag());
 	}
 
 	/**
@@ -225,7 +225,7 @@ class AccountController extends AuthorizedController
 
 		// Something went wrong.
 		//
-		return Redirect::to('account/register')->withInput($inputs)->withErrors($validator->getMessages());
+		return Redirect::to('account/register')->withInput($inputs)->withErrors($validator->getMessageBag());
 	}
 
 	/**
