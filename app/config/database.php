@@ -56,8 +56,8 @@ return array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
 			'database'  => 'database',
-			'username'  => 'user',
-			'password'  => 'password',
+			'username'  => 'root',
+			'password'  => '',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
@@ -71,7 +71,7 @@ return array(
 			'password' => '',
 			'charset'  => 'utf8',
 			'prefix'   => '',
-            'schema'   => 'public',
+			'schema'   => 'public',
 		),
 
 		'sqlsrv' => array(
@@ -110,6 +110,8 @@ return array(
 	*/
 
 	'redis' => array(
+
+		'cluster' => true,
 
 		'default' => array(
 			'host'     => '127.0.0.1',

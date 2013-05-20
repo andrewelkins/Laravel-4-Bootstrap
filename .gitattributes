@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 .gitattributes export-ignore  
 .gitignore export-ignore
+=======
+* text=auto
+>>>>>>> 8709c6c6b062658eab23abf18aada550fb2efde9

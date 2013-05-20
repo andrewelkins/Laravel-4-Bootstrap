@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 /vendor
 composer.phar
 composer.lock
 .DS_Store
 .idea/
+=======
+/bootstrap/compiled.php
+/vendor
+composer.phar
+composer.lock
+.DS_Store
+>>>>>>> 8709c6c6b062658eab23abf18aada550fb2efde9

@@ -13,6 +13,8 @@
 
 $app = new Illuminate\Foundation\Application;
 
+$app->redirectIfTrailingSlash();
+
 /*
 |--------------------------------------------------------------------------
 | Detect The Application Environment
@@ -54,7 +56,9 @@ $app->bindInstallPaths(require __DIR__.'/paths.php');
 |
 */
 
-require $app->getBootstrapFile();
+$framework = $app['path.base'].'/vendor/laravel/framework/src';
+
+require $framework.'/Illuminate/Foundation/start.php';
 
 /*
 |--------------------------------------------------------------------------
