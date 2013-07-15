@@ -20,7 +20,6 @@
 		<!-- CSS
 		================================================== -->
 		<link href="{{{ asset('assets/css/bootstrap.css') }}}" rel="stylesheet">
-		<link href="{{{ asset('assets/css/bootstrap-responsive.css') }}}" rel="stylesheet">
 
 		<style>
 		@section('styles')
@@ -29,6 +28,8 @@
 			}
 		@show
 		</style>
+
+		<link href="{{{ asset('assets/css/bootstrap-responsive.css') }}}" rel="stylesheet">
 
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
