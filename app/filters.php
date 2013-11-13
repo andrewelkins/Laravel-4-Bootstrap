@@ -28,13 +28,8 @@ App::after(function($request, $response)
 |--------------------------------------------------------------------------
 |
 | The following filters are used to verify that the user of the current
-<<<<<<< HEAD
-| session is logged into this application. Also, a "guest" filter is
-| responsible for performing the opposite. Both provide redirects.
-=======
 | session is logged into this application. The "basic" filter easily
 | integrates HTTP Basic authentication for quick, simple checking.
->>>>>>> 8709c6c6b062658eab23abf18aada550fb2efde9
 |
 */
 
