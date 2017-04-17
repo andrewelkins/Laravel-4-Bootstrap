@@ -1,10 +1,10 @@
-##Laravel 4 - Bootstrap Application (Stable)
+## Laravel 4 - Bootstrap Application (Stable)
 
 This is a Laravel 4 Bootstrap Application that has Twitter Bootstrap 2.3.0 and a skeleton app on Laravel 4.
 
 Originally a fork of a repo by [brunogaspar](https://github.com/brunogaspar) that no longer exists.
 
-###How to install
+### How to install
 
 	git clone git://github.com/andrew13/Laravel-4-Bootstrap.git laravel
 	cd laravel
@@ -17,7 +17,7 @@ Now that you have the Laravel 4 installed, you need to create a database for it 
 
 -----
 
-###After that, run these commands to create and populate Users table:
+### After that, run these commands to create and populate Users table:
 
 	php artisan migrate
 	php artisan db:seed
